@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Asset/hgg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+section nav{
+    width: 100%;
+    display: relative;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+section nav .logo img{
+    width: 100px;
+    position: absolute;
+    left: 60px 
+    
+}
+
+section nav ul{
+    list-style: none;
+    float: right;
+    
+}
+
+section nav ul li{
+    display: inline-block;
+    margin:  20px;
+}
+
+section nav ul li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+section nav ul li a:hover{
+    color: hsl(37, 94%, 58%);
+}
+
+section nav .login i{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section nav .login i:hover{
+    color: #f9ab30;
+}
+
+section nav .login a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+section nav .login a:hover{
+    color: #f9ab30;
+}
+
+section .main .heading h1{
+    color: white;
+    position: relative;
+    font-size: 70px;
+    left: 8%;
+    top: 250px;
+    width: 650px;
+}
+
+section .main .heading h1 span{
+    color: #f9ab30;
+    margin-left: 20px;
+}
+
+section .main a{
+    color: white;
+    position: relative;
+    top: 390px;
+    left: 10%;
+    padding: 10px 20px;
+    background: #f9ab30;
+    text-decoration: none;
+}
