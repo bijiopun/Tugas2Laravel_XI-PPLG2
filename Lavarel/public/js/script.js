@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     
     if(username === correctUsername && password === correctPassword){
         alert('Login Bro');
-        window.location.href = 'index.html';
+        window.location.href = 'index';
     
     }else{
     
