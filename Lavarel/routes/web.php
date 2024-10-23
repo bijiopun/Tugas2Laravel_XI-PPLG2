@@ -10,8 +10,15 @@ Route::get('/welcome', function () {
     return view('welcome'); //Meruju ke file welcome.blade.
 });
 
-Route::get('/', function () {
+Route::get('/about', function () {
+    return view('about'); //Meruju ke file welcome.blade.
+});
+
+Route::get('/login', function () {
     return view('login'); //Meruju ke file welcome.blade.
 });
+
+
+
 
 
