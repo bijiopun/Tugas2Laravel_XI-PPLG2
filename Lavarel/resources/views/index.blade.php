@@ -17,8 +17,9 @@
             </div>
 
             <ul class="flex space-x-6">
+            <li><a href="{{ route ('login') }}" class="hover:text-yellow-500">Login</a></li>
                 <li><a href="#Home" class="hover:text-yellow-500">Home</a></li>
-                <li><a href="#about" class="hover:text-yellow-500">About</a></li>
+                <li><a href="{{ route ('about') }}" class="hover:text-yellow-500">About</a></li>
                 <li><a href="#packages" class="hover:text-yellow-500">Packages</a></li>
                 <li><a href="#destination" class="hover:text-yellow-500">Destination</a></li>
                 <li><a href="#feedback" class="hover:text-yellow-500">Review</a></li>

@@ -27,8 +27,7 @@
             <input type="password" name="password" id="password" class="mt-1 block w-full p-3 border border-gray-300 rounded-full focus:outline-none focus:ring focus:ring-yellow-500" required>
         </div>
 
-        <button type="submit" class="w-full bg-yellow-500 text-white font-semibold py-2 rounded-full hover:bg-yellow-600 transition">LOGIN</button>
-    </form>
+        <button type="submit" class="w-full bg-yellow-500 text-white font-semibold py-2 rounded-full hover:bg-yellow-600 transition">LOGIN INDEX</button>
 
     <script src="js/script.js"></script>
 </body>
